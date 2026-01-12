@@ -8,7 +8,7 @@ const productList = [
     name: "SportsOn Product 1",
     category: "Running",
     price: 450000,
-    imgUrl: "product-1.png",
+    imgUrl: "product-9.png",
   },
   {
     name: "SportsOn Product 2",
