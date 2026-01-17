@@ -10,14 +10,14 @@ export const cartList = [
     category: "Running",
     price: 450000,
     qty: 2,
-    imgUrl: "product-1.png",
+    imgUrl: "product-9.png",
   },
   {
     name: "SportsOn Product 2",
     category: "Running",
-    price: 250000,
+    price: 350000,
     qty: 3,
-    imgUrl: "product-1.png",
+    imgUrl: "product-2.png",
   },
   {
     name: "SportsOn Product 3",
