@@ -38,7 +38,7 @@ const Header = () => {
           >
             <FiShoppingBag size={24} />
             <div className="bg-primary rounded-full w-3.5 h-3.5 absolute -top-1 -right-1 text-[10px] text-white text-center">
-              3
+              4
             </div>
           </button>
           {isCartPopupOpen && <CartPopup />}
