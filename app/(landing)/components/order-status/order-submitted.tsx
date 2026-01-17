@@ -26,7 +26,7 @@ const OrderSubmitted = () => {
         payment status, please wait and your order status will be updated in
         less than 12 hours.
       </p>
-      <Button variant="dark" className="w-full" onClick={OrderConfirmed}>
+      <Button variant="dark" className="w-full" onClick={reloadOrderStatus}>
         <FiRefreshCw />
         Refresh Order Status
       </Button>
