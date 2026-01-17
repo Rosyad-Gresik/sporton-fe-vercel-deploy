@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Button from "../ui/button";
 import { FiRefreshCw } from "react-icons/fi";
+import OrderInformation from "../checkout/order-information";
+import OrderConfirmed from "./order-confirmed";
 
 const OrderSubmitted = () => {
   const reloadOrderStatus = () => {
@@ -24,7 +26,7 @@ const OrderSubmitted = () => {
         payment status, please wait and your order status will be updated in
         less than 12 hours.
       </p>
-      <Button variant="dark" className="w-full" onClick={reloadOrderStatus}>
+      <Button variant="dark" className="w-full" onClick={OrderConfirmed}>
         <FiRefreshCw />
         Refresh Order Status
       </Button>
