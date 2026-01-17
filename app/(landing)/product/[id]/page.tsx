@@ -28,7 +28,7 @@ const ProductDetail = () => {
           traction.
         </p>
         <div className="text-primary text-[32px] font-semibold mb-12">
-          {priceFormatter(458000)}
+          {priceFormatter(450000)}
         </div>
         <ProductActions />
       </div>
