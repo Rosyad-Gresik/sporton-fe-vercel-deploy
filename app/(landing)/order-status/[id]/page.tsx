@@ -8,7 +8,7 @@ const OrderStatus = async ({ params }: TPageProps) => {
   const { id } = await params;
 
   const transaction = await getTransactionById(id);
-
+  console.log("transaction", transaction);
 
   return (
     <main className="bg-gray-100 min-h-[80vh]">
