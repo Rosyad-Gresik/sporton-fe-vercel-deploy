@@ -5,7 +5,7 @@ import { FiEdit2, FiTrash2 } from "react-icons/fi";
 const productData = [
   {
     name: "SportOn Product 1",
-    imageUrl: "/images/products/product-9.png",
+    imageUrl: "/images/products/product-8.png",
     category: "Running",
     price: 289000,
     stock: 3,
